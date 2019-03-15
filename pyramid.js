@@ -1,8 +1,14 @@
-var asterisk = "";
-for(var i=0; i <= 5; i++){
+
+
+for(var i=1; i <= 10; i++){
+    var asterisk = "";
+    
     for (var j=1; j <= i; j++){
+
         asterisk = asterisk + "*";
-        console.log(asterisk);
+        
+    
     }
+    console.log(asterisk);
     
 }
